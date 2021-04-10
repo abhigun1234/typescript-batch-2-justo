@@ -29,9 +29,46 @@ let i=0
 
 // }while(i<10)
 
-let no=Number(prompt("enter a no"))
-for(let j=1 ;j<10;j++){
 
-  let result=no*j;
-  console.log("result",result)
-}
+
+//  function printTable( no:any){
+       
+//      no=Number(prompt("enter a no"))
+//         for(let j=1 ;j<10;j++){
+
+//         let result=no*j;
+//         console.log("result",result)
+//         }
+
+//  }
+
+//  //call
+
+//  printTable(3)
+
+
+
+// function disp_details(id:number,name:string,mail_id?:string) { 
+//     console.log("ID:", id); console.log("Name",name); 
+//     // if(mail_id!=undefined)
+//      console.log("Email Id",mail_id); 
+// }
+//  disp_details(123,"John"); disp_details(111,"mary","mary@xyz.com");
+
+// function addNumbers(...nums:number[]) { var i; var sum:number = 0; 
+    
+//     for(i = 0;i<nums.length;i++) { sum = sum + nums[i]; } 
+//     console.log("sum of the numbers",sum) } addNumbers(1,2,3) 
+//     addNumbers(10,10,10,10,10)
+//     addNumbers(10,10,10,10,10,10,10)
+
+function calculate_discount(price:number,rate:number = 0.50,name:string='abhishek') { 
+    var discount = price * rate; console.log("Discount Amount: ",discount);
+console.log("name",name)
+} 
+calculate_discount(1000) 
+calculate_discount(1000,0.30)
+calculate_discount(1000,0.30)
+calculate_discount(1000,0.30,'ravi')
+
+
